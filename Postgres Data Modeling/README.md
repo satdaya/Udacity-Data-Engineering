@@ -6,9 +6,9 @@ I created a star schema in Postgres. The songplays fact table contains all relev
     * songs - Song data
     * time - Timestamp data broken into different time units of measure
 
-To start the process, 
-    a. execute create_tables.py in the terminal. This will wipe any existing tables and create fresh ones.
-    b. execute etl.py in the terminal. 
+To start the process,  
+    ***a.*** execute create_tables.py in the terminal. This will wipe any existing tables and create fresh ones.  
+    ***b.*** execute etl.py in the terminal. 
 
 ETL Process: 
 The song log files house all the data that populates the song and artist tables. The process_song_file function loads the data into the table.

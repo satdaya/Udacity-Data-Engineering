@@ -2,7 +2,7 @@ Sparkify, a fictional music streaming company, is migrating its data from a Reds
 
 There are two datasets in JSON format.
 
-1. Song Dataset: A subset of the Million Song Dataset containing song and artist metadata. The data is partitioned by the first two letters of the track id. The following are examples of the file paths: 1. song_data/A/B/C/TRABCEI128F424C983.json 2. song_data/A/A/B/TRAABJL12903CDCF1A.json
+**1. Song Dataset:** A subset of the Million Song Dataset containing song and artist metadata. The data is partitioned by the first two letters of the track id. The following are examples of the file paths: 1. song_data/A/B/C/TRABCEI128F424C983.json 2. song_data/A/A/B/TRAABJL12903CDCF1A.json
 
 Below is the sample data for one song:
 {"num_songs": 1,
@@ -16,7 +16,7 @@ Below is the sample data for one song:
  "duration": 152.92036,
  "year": 0}
  
- 2. Log Dataset: Simulated user listening data. Data partitioned by year and month. The following are examples of file paths: 1. log_data/2018/11/2018-11-12-events.json 2. log_data/2018/11/2018-11-13-events.json
+ **2. Log Dataset:** Simulated user listening data. Data partitioned by year and month. The following are examples of file paths: 1. log_data/2018/11/2018-11-12-events.json 2. log_data/2018/11/2018-11-13-events.json
  
  Below is the sample data for one song:
 {”artist”:	0
